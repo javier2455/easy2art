@@ -9,7 +9,7 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <BrowserRouter basename="/easy2art">
+    <BrowserRouter basename="easy2art">
       <Routes>
         <Route
           path="/"
