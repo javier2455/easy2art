@@ -1,4 +1,7 @@
-# Catalogue v0.1.1
+# Catalogue v1.0.0
+
+## Cambios 24/01/2023
+- Se cambiaron las rutas de `App.jsx`, `constants`, `CompanyWorks` y `Intro` a las que nos brinda GithubPages para el hosting. 
 
 ## Por hacer
 - https://github.com/gitname/react-gh-pages Documentación

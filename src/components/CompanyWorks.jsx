@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
-// import { COMPANY_WORKS_DONE } from "../constants/constants";
+import { NAVIGATION_LINKS } from "../constants/constants";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import CardWork from "./CardWork";
 import WorkContext from "../context/WorkContext";
@@ -29,7 +29,7 @@ const CompanyWorks = () => {
       <div className="flex px-6 sm:justify-end">
         <Link
           className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white hover:bg-indigo-700 sm:w-[40%] md:w-[36%] lg:w-[26%] xl:w-[20%] md:py-2 md:px-2 md:text-lg"
-          to="/works"
+          to={NAVIGATION_LINKS[1].path}
         >
           Ver más trabajos <FaLongArrowAltRight className="ml-2 text-xl" />
         </Link>
