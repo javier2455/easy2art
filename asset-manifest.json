@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/easy2art/static/css/main.db870ad1.css",
-    "main.js": "/easy2art/static/js/main.05db3933.js",
+    "main.js": "/easy2art/static/js/main.a575c18a.js",
     "static/media/Pullovers.png": "/easy2art/static/media/Pullovers.b106e08a0a585fe4d7ba.png",
     "static/media/Interiores.jpg": "/easy2art/static/media/Interiores.95b6babe5350502030b1.jpg",
     "static/media/TeamWork.jpg": "/easy2art/static/media/TeamWork.b01f962b7bba8374d85f.jpg",
@@ -16,10 +16,10 @@
     "static/media/Pullovers2.jpg": "/easy2art/static/media/Pullovers2.2d8c84dce83e01972f21.jpg",
     "index.html": "/easy2art/index.html",
     "main.db870ad1.css.map": "/easy2art/static/css/main.db870ad1.css.map",
-    "main.05db3933.js.map": "/easy2art/static/js/main.05db3933.js.map"
+    "main.a575c18a.js.map": "/easy2art/static/js/main.a575c18a.js.map"
   },
   "entrypoints": [
     "static/css/main.db870ad1.css",
-    "static/js/main.05db3933.js"
+    "static/js/main.a575c18a.js"
   ]
 }
