@@ -11,16 +11,7 @@ function App() {
   return (
     <Routes>
       <Route
-        path="easy2art/"
-        element={
-          <>
-            <Navigation />
-            <Home />
-          </>
-        }
-      />
-      <Route
-        path="easy2art/home"
+        path="/"
         element={
           <>
             <Navigation />
@@ -38,7 +29,7 @@ function App() {
           }
         /> */}
       <Route
-        path="easy2art/works"
+        path="/works"
         element={
           <>
             <Navigation />
