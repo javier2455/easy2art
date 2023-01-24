@@ -21,7 +21,7 @@ function App() {
           }
         />
         <Route
-          path="/home"
+          path="easy2art/home"
           element={
             <>
               <Navigation />
@@ -39,7 +39,7 @@ function App() {
           }
         /> */}
         <Route
-          path="/works"
+          path="easy2art/works"
           element={
             <>
               <Navigation />

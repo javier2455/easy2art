@@ -23,12 +23,12 @@ export const NAVIGATION_LINKS = [
   {
     id: 1,
     tx: "Inicio",
-    path: "easy2art/home",
+    path: "/easy2art/home",
   },
   {
     id: 2,
     tx: "Trabajos",
-    path: "easy2art/works",
+    path: "/easy2art/works",
   },
   /* {
     id: 3,
