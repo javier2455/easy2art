@@ -9,26 +9,26 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-      <Routes>
-        <Route
-          path="easy2art/"
-          element={
-            <>
-              <Navigation />
-              <Home />
-            </>
-          }
-        />
-        <Route
-          path="easy2art/home"
-          element={
-            <>
-              <Navigation />
-              <Home />
-            </>
-          }
-        />
-        {/* <Route
+    <Routes>
+      <Route
+        path="easy2art/"
+        element={
+          <>
+            <Navigation />
+            <Home />
+          </>
+        }
+      />
+      <Route
+        path="easy2art/home"
+        element={
+          <>
+            <Navigation />
+            <Home />
+          </>
+        }
+      />
+      {/* <Route
           path="/login"
           element={
             <>
@@ -37,16 +37,16 @@ function App() {
             </>
           }
         /> */}
-        <Route
-          path="easy2art/works"
-          element={
-            <>
-              <Navigation />
-              <Works />
-            </>
-          }
-        />
-        {/* <Route
+      <Route
+        path="easy2art/works"
+        element={
+          <>
+            <Navigation />
+            <Works />
+          </>
+        }
+      />
+      {/* <Route
           path="/create_pin"
           element={
             <>
@@ -55,9 +55,9 @@ function App() {
             </>
           }
         /> */}
-        {/* <Route path="/admin" element={<Admin />} /> */}
-        <Route path="*" element={<h1>404: Not Found </h1>} />
-      </Routes>
+      {/* <Route path="/admin" element={<Admin />} /> */}
+      <Route path="*" element={<h1>404: Not Found </h1>} />
+    </Routes>
   );
 }
 export default App;
