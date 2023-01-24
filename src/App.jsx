@@ -1,6 +1,6 @@
 import React from "react";
 // import PinForm from "./components/PinForm";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Works from "./pages/Works";
 import Navigation from "./components/Navigation";
@@ -9,10 +9,10 @@ import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <>
+    <BrowserRouter basename="/easy2art">
       <Routes>
         <Route
-          path="easy2art/"
+          path="/"
           element={
             <>
               <Navigation />
@@ -21,7 +21,7 @@ function App() {
           }
         />
         <Route
-          path="easy2art/home"
+          path="/home"
           element={
             <>
               <Navigation />
@@ -39,7 +39,7 @@ function App() {
           }
         /> */}
         <Route
-          path="easy2art/works"
+          path="/works"
           element={
             <>
               <Navigation />
@@ -59,8 +59,7 @@ function App() {
         {/* <Route path="/admin" element={<Admin />} /> */}
         <Route path="*" element={<h1>404: Not Found </h1>} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
-
 export default App;
