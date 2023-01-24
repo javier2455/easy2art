@@ -12,7 +12,7 @@ function App() {
     <>
       <Routes>
         <Route
-          path="/"
+          path="easy2art/"
           element={
             <>
               <Navigation />
@@ -21,7 +21,7 @@ function App() {
           }
         />
         <Route
-          path="/home"
+          path="easy2art/home"
           element={
             <>
               <Navigation />
@@ -29,7 +29,7 @@ function App() {
             </>
           }
         />
-        <Route
+        {/* <Route
           path="/login"
           element={
             <>
@@ -37,9 +37,9 @@ function App() {
               <Login />
             </>
           }
-        />
+        /> */}
         <Route
-          path="/works"
+          path="easy2art/works"
           element={
             <>
               <Navigation />
@@ -47,7 +47,7 @@ function App() {
             </>
           }
         />
-        <Route
+        {/* <Route
           path="/create_pin"
           element={
             <>
@@ -55,8 +55,8 @@ function App() {
               <PinForm />
             </>
           }
-        />
-        <Route path="/admin" element={<Admin />} />
+        /> */}
+        {/* <Route path="/admin" element={<Admin />} /> */}
         <Route path="*" element={<h1>404: Not Found </h1>} />
       </Routes>
     </>
