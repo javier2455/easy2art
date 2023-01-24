@@ -1,11 +1,11 @@
 import React from "react";
-import PinForm from "./components/PinForm";
+// import PinForm from "./components/PinForm";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Works from "./pages/Works";
 import Navigation from "./components/Navigation";
-import Login from "./pages/Login";
-import Admin from "./pages/Admin";
+// import Login from "./pages/Login";
+// import Admin from "./pages/Admin";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
           }
         />
         <Route
-          path="easy2art/home"
+          path="/home"
           element={
             <>
               <Navigation />
@@ -39,7 +39,7 @@ function App() {
           }
         /> */}
         <Route
-          path="easy2art/works"
+          path="/works"
           element={
             <>
               <Navigation />
