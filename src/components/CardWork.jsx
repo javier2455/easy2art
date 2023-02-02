@@ -3,7 +3,7 @@ import React from "react";
 
 const CardWork = ({ work }) => {
   return (
-    <div className="relative overflow-hidden my-2 sm:my-0 sm:w-[200px] sm:h-[200px] md:w-[230px] md:h-[230px] lg:w-[250px] xl:w-[300px] xl:h-[250px] 2xl:w-[350px] 2xl:h-[360px] 3xl:w-[450px]">
+    <div className="relative overflow-hidden my-2 sm:my-0 sm:w-[200px] sm:h-[200px] md:w-[250px] md:h-[250px] lg:w-[330px] xl:w-[37 0px] xl:h-[330px] 2xl:w-[400px] 2xl:h-[400px] 3xl:w-[450px]">
       <img
         src={work.image}
         alt={work.alt}

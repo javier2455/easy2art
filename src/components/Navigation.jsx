@@ -27,14 +27,15 @@ const Navigation = () => {
       ${open ? "top-[60px] left-0 z-[1]" : "opacity-0 top-[60px] left-[-400px]"} transition-all ease-in duration-300`}>
         {NAVIGATION_LINKS.map((lk, index) => (
           <li className="mx-3 my-5 sm:my-0" key={lk.id}>
-            <NavLink
-              className={({ isActive }) =>
+            <Link
+            className="px-3 py-1.5 text-xl text-gray-600 rounded-lg hover:bg-gray-100 hover:text-indigo-600 capitalize cursor-pointer"
+              /* className={({ isActive }) =>
                 isActive ? activeLink : notActiveLink
-              }
+              } */
               to={lk.path}
             >
               {lk.tx}
-            </NavLink>
+            </Link>
           </li>
         ))}
       </ul>
