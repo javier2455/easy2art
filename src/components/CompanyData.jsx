@@ -32,13 +32,13 @@ const CompanyData = () => {
           <div>
             <p className="text-2xl font-bold">¿Quienes somos?</p>
             <span className="">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit pariatur, dolorum quaerat similique quod, nisi iste sapiente ad distinctio consectetur id, eveniet voluptas laboriosam blanditiis tempore consequuntur voluptate rerum!
+            Somos una empresa de más de 6 años, especializada en el diseño y trabajado de madera, pladur y trabajo en interiores. Contamos con un equipo de trabajo formado por profesionales con habilidades de diseño y carpintería, cuya pasión se manifiesta en cada trabajo abordado. Todos sus integrantes, desde el personal de obra, hasta el administrativo y personal técnico trabajan íntegramente respetando los valores humanos y profesionales por los que aboga la empresa. 
             </span>
           </div>
           <div>
             <p className="text-2xl font-bold">Nuestra trayectoría</p>
             <span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat minima laudantium doloremque provident iure eius praesentium quaerat consequatur illum fugiat, optio dicta cupiditate esse magnam!
+            A lo largo de 6 años hemos cubierto varias escalas y temáticas dentro del ámbito público y privado, aprendiendo a lidiar con los desafíos que se fueron presentando en cada una de ellas, desde el desarrollo de proyectos hasta la puesta en práctica de trabajos madera, pladur, interiores, habiendo ejecutado más de 100 obras dentro de Cuba. En cada oportunidad nos hemos esforzado por respetar todos los niveles de calidad, plazos y soluciones exigidos por el cliente, logrando establecer los vínculos de confianza que hoy en día forman parte de nuestra sólida trayectoria.
             </span>
           </div>
         </div>

@@ -60,25 +60,25 @@ export const COMPANY_SERVICES_CARDS = [
     id: 1,
     title: "Madera",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique tenetur non nostrum obcaecati, repellat ut.",
+      "Ofrecemos un excelente servicio para la creación de artículos de madera tanto de utilidad como decorativos.",
   },
   {
     id: 2,
     title: "Pladur",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique tenetur non nostrum obcaecati, repellat ut.",
+      "Ofrecemos trabajamos de estanterias, techos, paredes o cualquier necesidad de nuestros clientes.",
   },
   {
     id: 3,
     title: "Interiores",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique tenetur non nostrum obcaecati, repellat ut.",
+      "Nuestros trabajos en interiores se acomodan a la necesidad de nuestros clientes, siempre con apoyo de nuestros profesionales.",
   },
   {
     id: 4,
     title: "Pullovers",
     description:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique tenetur non nostrum obcaecati, repellat ut.",
+      "Tenemos una gama de ofertas irrechazable que le van a encantar, su diseño también es importante para nosotros.",
   },
 ];
 

@@ -9,7 +9,9 @@ const CompanyServices = () => {
     <section className="w-full h-auto flex flex-col mx-auto shadow-lg mt-3 mb-3 px-2 py-5 lg:w-[80%]">
       <div className="px-7 py-2 mb-5">
         <h3 className="text-2xl font-bold mb-2">¿Qué servicios ofrecemos?</h3>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam magni ipsam repudiandae fugit beatae quaerat. Distinctio quam voluptate, id est eaque nobis, doloribus, voluptates repudiandae ipsum debitis numquam qui. Quo iusto alias dicta odio maxime.</p>
+        <p>
+          Ofrecemos diversos servicios que van desde trabajos con madera, pladur, decoración de interiores y exteriores hasta impresion de pullovers. A continuación mostramos algunos de nuestros servicios más solicitados.
+        </p>
       </div>
       <div className="w-full h-auto grid gap-4 grid-cols-1 justify-items-center md:grid-cols-2 xl:grid-cols-4">
         {COMPANY_SERVICES_CARDS.map((c, index) => (

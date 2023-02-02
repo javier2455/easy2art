@@ -15,10 +15,7 @@ const CompanyWorks = () => {
           Conozca nuestros trabajos más recientes
         </h3>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
-          magni ipsam repudiandae fugit beatae quaerat. Distinctio quam
-          voluptate, id est eaque nobis, doloribus, voluptates repudiandae ipsum
-          debitis numquam qui. Quo iusto alias dicta odio maxime.
+          A continuación le mostramos algunos de nuestros trabajos más recientes, contamos con una muy buena aceptación y reseñas por parte de nuestros clientes.
         </p>
       </div>
       <div className="h-full p-2 gap-3 sm:grid sm:justify-items-center teidi sm:grid-cols-2 lg:grid-cols-3">

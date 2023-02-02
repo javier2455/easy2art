@@ -21,10 +21,8 @@ const Intro = () => {
               E4sy Art
             </span>
           </h1>
-          <p className="block text-white mt-2 font-bold xl:w-[70%]">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam,
-            beatae debitis, impedit fugit harum voluptatum corporis accusamus
-            magnam id provident veritatis dolores velit esse? Ipsam.
+          <p className="block text-xl text-white mt-2 font-bold xl:w-[70%]">
+            Contamos con un equipo de vasta experiencia en trabajos con madera, pladur, entre otros materiales.
           </p>
           <div className="mt-2 sm:flex sm:justify-start md:justify-center lg:justify-start ">
             <div className="rounded-md shadow">
