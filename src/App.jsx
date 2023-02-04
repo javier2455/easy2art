@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Works from "./pages/Works";
 import Navigation from "./components/Navigation";
-import SearchWorks from "./components/SearchWorks";
+// import SearchWorks from "./components/SearchWorks";
 // import Login from "./pages/Login";
 // import Admin from "./pages/Admin";
 

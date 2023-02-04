@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { NAVIGATION_LINKS } from "../constants/constants";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+// import { NavLink, Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 
-const activeLink = "bg-indigo-600 text-white p-2 duration-300 rounded-lg";
-const notActiveLink = "text-xl rounded-sm p-2 text-indigo-600 cursor-pointer duration-300";
+// const activeLink = "bg-indigo-600 text-white p-2 duration-300 rounded-lg";
+// const notActiveLink = "text-xl rounded-sm p-2 text-indigo-600 cursor-pointer duration-300";
 
 const Navigation = () => {
   const [open, setOpen] = useState(false)

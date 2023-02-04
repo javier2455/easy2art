@@ -1,4 +1,15 @@
-# Catalogue v1.0.1
+# Catalogue v1.0.3
+
+## Cambios 04/02/2023
+- Ya funciona el formulario de contacto.
+- Se creo un componente `ContactForm` con el que se extrajo la parte visual del formulario. 
+
+- **Se Trabaja en**
+* Hacer un mensaje para mostrarle al usuario la confirmacion de que su correo se envio.
+* 
+
+## Cambios 03/02/2023
+- Se agregaron los enlaces a las redes sociales, se quito Telegram de forma momentanea.
 
 ## Cambios 02/02/2023
 - Se crea un nuevo componente `SearchWorks` que sustituye a SideBar en la vista `Works`, ahora la busqueda por categoría ocupa menos espacio y es mas simple.
