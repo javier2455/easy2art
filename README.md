@@ -1,7 +1,5 @@
 # Catalogue v1.0.3
 
-https://youtu.be/lnaQxrs8T7A - de ahi cojer solamente la parte de los proyectos hechos.
-
 ## Cambios 04/02/2023
 - Ya funciona el formulario de contacto.
 - Se creo un componente `ContactForm` con el que se extrajo la parte visual del formulario. 
