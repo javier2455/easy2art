@@ -1,12 +1,14 @@
 # Catalogue v1.0.3
 
+https://youtu.be/lnaQxrs8T7A - de ahi cojer solamente la parte de los proyectos hechos.
+
 ## Cambios 04/02/2023
 - Ya funciona el formulario de contacto.
 - Se creo un componente `ContactForm` con el que se extrajo la parte visual del formulario. 
+- Se configuro el servicio para reenviarle un correo al remitente.
 
 - **Se Trabaja en**
-* Hacer un mensaje para mostrarle al usuario la confirmacion de que su correo se envio.
-* 
+* Hacer un mensaje para mostrarle al usuario la confirmación de que su correo se envió.
 
 ## Cambios 03/02/2023
 - Se agregaron los enlaces a las redes sociales, se quito Telegram de forma momentanea.
@@ -18,9 +20,9 @@
 - Se cambiaron los texto que conteian "lorem ipsum" por contenido acorde al sitio.
 
 - **Se Trabaja en**
-* Buscar una mejor distribución a las imagenes en la vista de `Works`
-* Hacer los enlaces a las redes Sociales en la vista `Home`.
-* Hacer funcional el formulario de Contactenos, recibir un correo y enviarle otro al usuario con la informacion de que se recibio el que nos envia por ahora.
+* Buscar una mejor distribución a las imagenes en la vista de `Works` (Por hacer)
+* Hacer los enlaces a las redes Sociales en la vista `Home`. (Echo)
+* Hacer funcional el formulario de Contactenos, recibir un correo y enviarle otro al usuario con la informacion de que se recibio el que nos envia por ahora. (Echo parcialmente).
 
 ## Cambios 24/01/2023
 - Se cambiaron las rutas de `App.jsx`, `constants`, `CompanyWorks` y `Intro` a las que nos brinda GithubPages para el hosting. 
