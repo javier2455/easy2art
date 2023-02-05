@@ -1,4 +1,7 @@
-# Catalogue v1.0.3
+# Catalogue v1.0.4
+
+## Cambios 05/02/2023
+- Agregado la página de error 404.
 
 ## Cambios 04/02/2023
 - Ya funciona el formulario de contacto.
