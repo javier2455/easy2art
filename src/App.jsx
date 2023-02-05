@@ -3,6 +3,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Works from "./pages/Works";
+import Page404 from "./pages/Page404";
 import Navigation from "./components/Navigation";
 // import SearchWorks from "./components/SearchWorks";
 // import Login from "./pages/Login";
@@ -57,7 +58,7 @@ function App() {
           }
         /> */}
       {/* <Route path="/admin" element={<Admin />} /> */}
-      <Route path="*" element={<h1>404: Not Found </h1>} />
+      <Route path="*" element={<Page404 />} />
     </Routes>
   );
 }
