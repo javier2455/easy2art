@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/easy2art/static/css/main.1e5f5a2c.css",
-    "main.js": "/easy2art/static/js/main.d3fd9395.js",
+    "main.css": "/easy2art/static/css/main.4db5bf44.css",
+    "main.js": "/easy2art/static/js/main.beb1140d.js",
     "static/media/Pullovers.png": "/easy2art/static/media/Pullovers.b106e08a0a585fe4d7ba.png",
     "static/media/Interiores.jpg": "/easy2art/static/media/Interiores.95b6babe5350502030b1.jpg",
     "static/media/TeamWork.jpg": "/easy2art/static/media/TeamWork.b01f962b7bba8374d85f.jpg",
@@ -15,11 +15,11 @@
     "static/media/HomeImg.jpg": "/easy2art/static/media/HomeImg.810c72fc060889404c6a.jpg",
     "static/media/Pullovers2.jpg": "/easy2art/static/media/Pullovers2.2d8c84dce83e01972f21.jpg",
     "index.html": "/easy2art/index.html",
-    "main.1e5f5a2c.css.map": "/easy2art/static/css/main.1e5f5a2c.css.map",
-    "main.d3fd9395.js.map": "/easy2art/static/js/main.d3fd9395.js.map"
+    "main.4db5bf44.css.map": "/easy2art/static/css/main.4db5bf44.css.map",
+    "main.beb1140d.js.map": "/easy2art/static/js/main.beb1140d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e5f5a2c.css",
-    "static/js/main.d3fd9395.js"
+    "static/css/main.4db5bf44.css",
+    "static/js/main.beb1140d.js"
   ]
 }
