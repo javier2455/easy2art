@@ -1,15 +1,18 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { FaEnvelopeOpenText } from "react-icons/fa";
 
 const ContactForm = () => {
+  const [loadingEmail, setLoadingEmail] = useState(false);
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
+    setLoadingEmail(true);
+    // console.log("Test");
     emailjs.sendForm('service_39uw55h', 'template_osqb78f', form.current, 'kTYMLwW3EWZdsgSGQ')
       .then((result) => {
+        setLoadingEmail(false);
         console.log(result.text);
         console.log("Mensaje enviado");
         form.current.reset();
@@ -60,8 +63,10 @@ const ContactForm = () => {
               type="submit"
               value="Send" /> */}
           <button
-            className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white 
-      hover:bg-indigo-700 sm:w-[40%] md:w-[36%] lg:w-[32%] xl:w-[17%] md:py-2 md:px-2 md:text-lg"
+            disabled={loadingEmail}
+            className={`flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 px-8 py-3 text-base font-medium text-white 
+            hover:bg-indigo-700 sm:w-[40%] md:w-[36%] lg:w-[32%] xl:w-[17%] md:py-2 md:px-2 md:text-lg
+            ${loadingEmail && "bg-indigo-300 cursor-not-allowed hover:bg-indigo-300"}`}
             onClick={(e) => sendEmail(e)}
           >
             Enviar Mensaje <FaEnvelopeOpenText className="ml-2 text-xl" />

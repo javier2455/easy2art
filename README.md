@@ -4,6 +4,7 @@
 - Ya funciona el formulario de contacto.
 - Se creo un componente `ContactForm` con el que se extrajo la parte visual del formulario. 
 - Se configuro el servicio para reenviarle un correo al remitente.
+- Se añadio la deshabilitación del botón del formulario de contacto mientras se envia el correo.
 
 - **Se Trabaja en**
 * Hacer un mensaje para mostrarle al usuario la confirmación de que su correo se envió.
